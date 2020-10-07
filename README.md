@@ -1,4 +1,4 @@
-# API-WhatsApp-untuk-OTP
+# Kirim-Pesan-dengan-API-WhatsApp-untuk-OTP
 
 Ini adalah aplikasi php untuk mengakses api dari API WhatsApp OTP ( dari Kejarkoding )
 
