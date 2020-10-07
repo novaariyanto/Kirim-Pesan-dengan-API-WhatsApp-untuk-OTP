@@ -20,10 +20,10 @@ Fitur :
 - kirim pesan tanpa save nomor
 - Tanpa biaya bulanan
 
-NB : Cara kerja meremote wa web dan menjadikannya API untuk mempermudah akses
-Video Demo Aplikasi OTP WA :https://www.youtube.com/watch?v=mtRf_-6cYuI
-Link Demo Aplikasi : http://20.51.217.201:5000
-API Demo Postman : https://documenter.getpostman.com/view/6198796/TVRg79tc
+NB : Cara kerja meremote wa web dan menjadikannya API untuk mempermudah akses </br>
+Video Demo Aplikasi OTP WA :https://www.youtube.com/watch?v=mtRf_-6cYuI </br>
+Link Demo Aplikasi : http://20.51.217.201:5000 </br>
+API Demo Postman : https://documenter.getpostman.com/view/6198796/TVRg79tc </br>
 
 Kita bisa mengirim pesan wa dalam bentuk text dan gambar melalui API dari aplikasi ini. 
 aplikasi ini cocok untuk kamu yang ingin membuat otp dengan menggunakan whatsapp. 
