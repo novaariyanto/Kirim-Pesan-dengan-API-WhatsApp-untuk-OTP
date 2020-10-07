@@ -8,7 +8,7 @@ Ini adalah aplikasi php untuk mengakses api dari API WhatsApp OTP ( dari Kejarko
 </br>
 
 <i>Catatan : </br>
-Source Code OTP WhatsApp Tanpa Biaya Bulanan  </br>
+Source Code OTP WhatsApp</br>
 Aplikasi ini dibuat untuk memudahkan kita dalam mengelola pesan whatsapp.  
 
 Fitur : 
@@ -18,6 +18,8 @@ Fitur :
 - Dashboard Aplikasi
 - Unlimited Pesan
 - kirim pesan tanpa save nomor
+- Tanpa biaya bulanan
+
 NB : Cara kerja meremote wa web dan menjadikannya API untuk mempermudah akses
 Video Demo Aplikasi OTP WA :https://www.youtube.com/watch?v=mtRf_-6cYuI
 Link Demo Aplikasi : http://20.51.217.201:5000
