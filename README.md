@@ -12,5 +12,5 @@ aplikasi dibangun dengan bahasa pemrograman nodejs dan database mysql-server.
 apabila anda ingin memiliki aplikasi OTP WhatsApp tanpa biaya bulanan ini 
 
 hubungi saya di
-Wa : 0895361034833 
+Wa : 0895361034833 </br>
 Facebook : Nova Ariyanto
