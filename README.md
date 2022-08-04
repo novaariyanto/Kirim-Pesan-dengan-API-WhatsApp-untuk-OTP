@@ -31,6 +31,10 @@ untuk mendapatkan instance_key perlu mendaftar di ika-broadcast.com
 
 Kita bisa mengirim pesan wa dalam bentuk text dan gambar melalui API dari aplikasi ini. 
 aplikasi ini cocok untuk kamu yang ingin membuat otp dengan menggunakan whatsapp. 
-aplikasi dibangun dengan bahasa pemrograman nodejs dan database mysql-server.  
-apabila anda ingin memiliki aplikasi OTP WhatsApp tanpa biaya bulanan ini 
+apabila anda ingin mendapatkan info tentang aplikasi OTP WhatsApp 
+bisa menghubungi :
+<br/>
+<br/>
+ ika : wa.me/6282134069628
+ email : ikanurulasriyanti89@gmail.com 
 </i>
