@@ -6,9 +6,9 @@ $whatsva = new Whatsva();
 $instance_key = "IiCVefn6gJG0";
 $jid = "62895361034833";
 $caption = "hai";
-$imageUrl = "https://ika-broadcast.com/assets/purple/assets/images/faces/face1.jpg";
+$documentUrl = "https://budi.kemdikbud.go.id/buku/pdf/1201-SMP-Siluman%20Ular-Sj-Fiks.pdf";
 
 
-$sendMessage = $whatsva->sendImageUrl($instance_key,$jid,$imageUrl,$caption);
+$sendMessage = $whatsva->sendDocumentUrl($instance_key,$jid,$documentUrl);
 
 print_r($sendMessage);
