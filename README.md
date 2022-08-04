@@ -35,6 +35,7 @@ apabila anda ingin mendapatkan info tentang aplikasi OTP WhatsApp
 bisa menghubungi :
 <br/>
 <br/>
- ika : wa.me/6282134069628
+ ika : wa.me/6282134069628 
+ <br/>
  email : ikanurulasriyanti89@gmail.com 
 </i>
