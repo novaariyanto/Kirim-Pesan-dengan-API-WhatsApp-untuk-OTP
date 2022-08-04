@@ -7,20 +7,14 @@ Ini adalah aplikasi php untuk mengakses api dari API WhatsApp OTP ( dari ika-bro
 </br>
 </br>
 contoh penggunaan script :
-</br>
-"
-include("./library/whatsva.php");
-
-$whatsva = new Whatsva();
-
-$instance_key = "IiCVefn6gJG0";
-$jid = "62895361034833";
-$message = "hello";
-
-
-$sendMessage = $whatsva->sendMessageText($instance_key,$jid,$message);
-"
-<br/>
+</br></br>
+include("./library/whatsva.php");</br>
+$whatsva = new Whatsva(); </br>
+$instance_key = "IiCVefn6gJG0";</br>
+$jid = "62895361034833"; </br>
+$message = "hello";</br>
+$sendMessage = $whatsva->sendMessageText($instance_key,$jid,$message);</br>
+<br/></br>
 <i>Catatan : </br>
 Source Code OTP WhatsApp</br>
 Aplikasi ini dibuat untuk memudahkan kita dalam mengelola pesan whatsapp.  
