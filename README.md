@@ -8,7 +8,7 @@ Ini adalah aplikasi php untuk mengakses api dari API WhatsApp OTP ( dari ika-bro
 </br>
 contoh penggunaan script :
 </br>
-`<?php
+"
 include("./library/whatsva.php");
 
 $whatsva = new Whatsva();
@@ -19,7 +19,7 @@ $message = "hello";
 
 
 $sendMessage = $whatsva->sendMessageText($instance_key,$jid,$message);
-?>`
+"
 <br/>
 <i>Catatan : </br>
 Source Code OTP WhatsApp</br>
