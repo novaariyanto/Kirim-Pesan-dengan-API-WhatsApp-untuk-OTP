@@ -1,0 +1,20 @@
+[
+    {
+     "No.": 1,
+     "Nama": "Nova Ariyanto",
+     "NORM": 12345,
+     "Alamat": "Kedumulyo 3\/6 Sukolilo",
+     "no_hp": "0895361034833",
+     "tgl_periksa": "08\/19\/2023",
+     "poli": "Konservasi Gigi"
+    },
+    {
+        "No.": 2,
+        "Nama": "Novi E",
+        "NORM": 12345,
+        "Alamat": "Kedumulyo 3\/6 Sukolilo",
+        "no_hp": "0895361034833",
+        "tgl_periksa": "08\/19\/2023",
+        "poli": "Konservasi Gigi"
+       }
+   ]

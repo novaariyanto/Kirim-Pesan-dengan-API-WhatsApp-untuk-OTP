@@ -3,10 +3,11 @@ include("./library/whatsva.php");
 
 $whatsva = new Whatsva();
 
-$instance_key = "IiCVefn6gJG0";
+$instance_key = "V103EvgIU66v";
 $jid = "62895361034833";
-$message = "hello";
 
+$message = "Halo"; 
+        
 
 $sendMessage = $whatsva->sendMessageText($instance_key,$jid,$message);
 

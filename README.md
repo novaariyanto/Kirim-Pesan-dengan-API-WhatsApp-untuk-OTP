@@ -1,6 +1,6 @@
 # Kirim-Pesan-dengan-API-WhatsApp-untuk-OTP
 
-Ini adalah aplikasi php untuk mengakses api dari API WhatsApp OTP ( dari ika-broadcast.com )
+Ini adalah aplikasi php untuk mengakses api dari API WhatsApp OTP ( dari whatsva.id )
 
 </br>
 </br>
@@ -27,7 +27,7 @@ Fitur :
 - kirim pesan tanpa save nomor
 
 NB : 
-untuk mendapatkan instance_key perlu mendaftar di ika-broadcast.com
+untuk mendapatkan instance_key perlu mendaftar di whatsva.id
 
 Kita bisa mengirim pesan wa dalam bentuk text dan gambar melalui API dari aplikasi ini. 
 aplikasi ini cocok untuk kamu yang ingin membuat otp dengan menggunakan whatsapp. 

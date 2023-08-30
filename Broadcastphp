@@ -1,0 +1,51 @@
+<?php
+
+include("./library/whatsva.php");
+
+
+
+
+$data = file_get_contents("data_pasien.json");
+$data_p = json_decode($data);
+
+$i = 0;
+while($i < count($data_p)){
+    // print_r($data_p[$i]);
+	
+  
+     $nama = $data_p[$i]->Nama;
+     $nomr = $data_p[$i]->NORM;
+     $alamat = $data_p[$i]->Alamat;
+     $no_hp = $data_p[$i]->no_hp;
+     $tanggal_periksa =  $data_p[$i]->tgl_periksa;
+     $tanggal_alih ="";
+     $poli = $data_p[$i]->poli;
+     if($poli == "Konservasi Gigi"){
+        $dokter = "drg. Aqilla TIara Kartikaningtyas, Sp. KG";
+     }else{
+        $dokter = "M. Arifin, dr. Sp.B-KBD";
+     }
+     
+     $i++;
+
+     $send = sendmessage($nama,$nomr,$alamat,$no_hp,$tanggal_periksa,$tanggal_alih,$dokter,$poli);
+     echo "<br><br><br>";
+    
+}
+
+
+function sendmessage($nama,$nomr,$alamat,$no_hp,$tanggal_periksa,$tanggal_alih,$dokter,$poli){
+    $tanggal_periksa = date_format(date_create($tanggal_periksa),"d-m-Y");
+    if($no_hp != ""){
+        $whatsva = new Whatsva();
+        $instance_key = "eTjtZ48xC2h4";
+       echo $jid = $no_hp ;
+        echo "<br>";
+        $message = "*INFO UPT RSUD RAA SOEWONDO PATI*\nKepada *$nama*\n\nDengan identitas sebagai berikut:\nNo. RM : *$nomr*\nNama : *$nama*\nAlamat : *$alamat*\n\nMohon maaf, Sehubungan dengan *_$dokter CUTI_* , maka Poli *$poli* pada tanggal *$tanggal_periksa _Tutup_*. \nPasien yang sudah mendaftar online agar mendaftar kembali pada hari lain. .\n\nTerima Kasih telah menggunakan Layanan Kami :)\n\nPesan ini dikirim otomatis melalui sistem. mohon untuk tidak membalas pesan ini dan jangan pilih sebagai pesan SPAM."; 
+         $sendMessage = $whatsva->sendMessageText($instance_key,$jid,$message);
+        
+        print_r($sendMessage);
+        
+    }
+
+}
